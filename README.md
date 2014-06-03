@@ -36,7 +36,7 @@ Vundle, the plug-in manager for Vim
 
 Name	     |  Desc                                       | Bindings
 ------------ | ------------------------------------------- | ------------
-[airline](https://github.com/bling/vim-airline) | lean & mean status/tabline for vim that's light as air |
+[airline](https://github.com/bling/vim-airline) | lean & mean status/tabline for vim that's light as air
 [fugitive](https://github.com/tpope/vim-fugitive) | fugitive.vim: a Git wrapper so awesome, it should be illegal
 [syntastic](https://github.com/scrooloose/syntastic) | Syntax checking hacks for vim
-[nerdcommenter](https://github.com/scrooloose/nerdcommenter) | The premier commenting tool. | `c<space>`
+[nerdcommenter](https://github.com/scrooloose/nerdcommenter) | The premier commenting tool.
