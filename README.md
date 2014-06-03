@@ -6,19 +6,19 @@ Contains two configuration files:
 
 * .vsvimrc - Contains settings that are compatible with [jaredpar/VsVim](https://github.com/jaredpar/VsVim).
 
-* .vimrc - Contains everything else.  Sources .vsvimrc.
+* .vimrc - Contains everything else.  Sources the above file.
  
 ## Installation
 
-Link the .vimrc file
+Link the .vimrc file:
 
-		ln -s ~/.vim/.vimrc ~/.vimrc
+		mklink %USERPROFILE%/.vim/.vimrc %USERPROFILE%/.vimrc
 
-Link the .vsvimrc file
+Link the .vsvimrc file:
 
-		ln -s ~/.vim/.vimrc ~/.vimrc
+		mklink %USERPROFILE%/.vim/.vsvimrc %USERPROFILE%/.vsimrc
 
-Use Vundle to install the Bundles.
+Use Vundle to install the Bundles:
 
 		vim +BundleInstall! +BundleClean +q
 
