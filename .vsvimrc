@@ -1,0 +1,52 @@
+"" settings in this file should work properly with vsvim
+"
+	set autoindent
+	set backspace=2
+	set clipboard+=unnamed			" share clipboard
+	set hlsearch					" enable highlighted search
+	set incsearch					" show next match while typing.
+	set ignorecase
+	set linebreak
+	set lz							" lazy redraw - don't redraw during macros
+	set matchpairs+=<:>
+	set nowrap						" no carriage returns
+	set smarttab
+	set smartindent
+	set shiftwidth=4                " number of spaces to (auto)indent
+	set tabstop=4                   " number of spaces of tab character
+	set whichwrap+=<,>,h,l			" wrap backspace and cursors correctly
+
+"" bindings 
+"
+	let mapleader = ","
+
+	" add empty lines with no insert mode
+	map <S-enter> O<Esc>
+	map <enter> o<Esc>
+
+	" delete char without yank
+	noremap x "_x
+	noremap X "_X
+
+	" H/L is more natural than 0/$
+	map H 0
+	map L $
+
+	" keep search results in the center of the screen
+	nnoremap <silent> n nzz
+	nnoremap <silent> N Nzz
+	nnoremap <silent> * *zz
+	nnoremap <silent> # #zz
+	nnoremap <silent> g* g*zz
+	nnoremap <silent> g# g#zz
+
+	" reselect visual block after indent
+	vnoremap < <gv
+	vnoremap > >gv
+
+	" save configuration
+	nnoremap <leader>sv :so $MYVIMRC<CR>
+
+"" disabled keys
+"
+	map <C-Z> <nop>
