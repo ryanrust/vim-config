@@ -4,9 +4,9 @@
 
 Contains two configuration files:
 
-* .vsvimrc - Contains settings that are compatible with [jaredpar/VsVim](https://github.com/jaredpar/VsVim).
+* .vsvimrc - Settings that are compatible with [jaredpar/VsVim](https://github.com/jaredpar/VsVim).
 
-* .vimrc - Contains everything else.  Sources the above file.
+* .vimrc - Everything else.  Sources the above file.
  
 ## Installation
 
