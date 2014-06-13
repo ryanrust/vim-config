@@ -1,7 +1,7 @@
 "" settings in this file should work properly with vsvim
 "
 	set autoindent
-	set backspace=2
+	set backspace=indent,eol,start
 	set clipboard+=unnamed			" share clipboard
 	set hlsearch					" enable highlighted search
 	set incsearch					" show next match while typing.
