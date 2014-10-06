@@ -1,3 +1,4 @@
 bundle/
-!bundle/vundle
+autoload/
+plugged/
 .DS_Store
