@@ -18,9 +18,18 @@ Link the .vsvimrc file:
 
 		mklink %USERPROFILE%/.vim/.vsvimrc %USERPROFILE%/.vsimrc
 
-Use Vundle to install the Bundles:
+Link the .vim folder:
 
-		vim +BundleInstall! +BundleClean +q
+		mklink %USERPROFILE%/vimfiles %USERPROFILE%/.vim
+
+Install vim-plug:
+
+		mkdir -p ~/.vim/autoload
+		curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+Use vim-plug to install the Bundles:
+
+		vim +PlugInstall +PlugClean
 
 Grab and install the **Inconsolata-dz** patched font for Powerline:
 
@@ -30,13 +39,14 @@ Grab and install the **Inconsolata-dz** patched font for Powerline:
 
 ### Package Manager
 
-#### [vundle](https://github.com/gmarik/vundle)
-Vundle, the plug-in manager for Vim
+#### [vim-plug](https://github.com/junegunn/vim-plug)
+A minimalist plugin manager.
 
 
 Name	     |  Desc                                       | Bindings
 ------------ | ------------------------------------------- | ------------
-[airline](https://github.com/bling/vim-airline) | lean & mean status/tabline for vim that's light as air
-[fugitive](https://github.com/tpope/vim-fugitive) | fugitive.vim: a Git wrapper so awesome, it should be illegal
+[airline](https://github.com/bling/vim-airline) | Lean & mean status/tabline for vim that's light as air.
+[fugitive](https://github.com/tpope/vim-fugitive) | A Git wrapper so awesome, it should be illegal.
 [syntastic](https://github.com/scrooloose/syntastic) | Syntax checking hacks for vim
 [nerdcommenter](https://github.com/scrooloose/nerdcommenter) | The premier commenting tool.
+[gotham](https://github.com/whatyouhide/vim-gotham) | Code never sleeps in Gotham City.

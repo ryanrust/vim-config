@@ -1,19 +1,15 @@
-" vundle setup
+" setup vim-plug
 "
-	set nocompatible
-	filetype off
+call plug#begin('~/.vim/plugged')
 
-	set rtp=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after,~/.vim/bundle/Vundle.vim
-	call vundle#begin()
+" Make sure you use single quotes
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/syntastic'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'whatyouhide/vim-gotham'
 
-	" let vundle manage vundle
-	" required!
-	Plugin 'gmarik/Vundle.vim'
-
-	Bundle 'scrooloose/nerdcommenter.git'
-	Bundle 'scrooloose/syntastic'
-	Bundle 'bling/vim-airline'
-	Bundle 'tpope/vim-fugitive'
+call plug#end()
 
 " reset vim augroup
 "
@@ -36,7 +32,7 @@
 	source ~\.vim\.vsvimrc
 
 	set background=dark
-	colorscheme molokai 
+	colorscheme gotham
 
 	set colorcolumn=80
 	set cursorline cursorcolumn								" vertical cursorline
@@ -71,11 +67,6 @@
 	set wildmenu 											"show completion matches above command line
 
 	let g:airline_powerline_fonts=1
-
-" vundle wrap-up
-"
-	call vundle#end()
-	filetype plugin indent on
 
 " syntastic
 "
