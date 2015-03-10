@@ -12,20 +12,20 @@ Contains two configuration files:
 
 Link the .vimrc file:
 
-		mklink %USERPROFILE%/.vimrc %USERPROFILE%/.vim/.vimrc
+		mklink "%USERPROFILE%/.vimrc" "%USERPROFILE%/.vim/.vimrc"
 
 Link the .vsvimrc file:
 
-		mklink %USERPROFILE%/.vsvimrc %USERPROFILE%/.vim/.vsvimrc
+		mklink "%USERPROFILE%/.vsvimrc" "%USERPROFILE%/.vim/.vsvimrc"
 
 Link the .vim folder:
 
-		mklink /D %USERPROFILE%/vimfiles %USERPROFILE%/.vim
+		mklink /D "%USERPROFILE%/vimfiles" "%USERPROFILE%/.vim"
 
 Install vim-plug:
 
-		mkdir -p ~/.vim/autoload
-		curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+		mkdir "%USERPROFILE%/.vim/autoload"
+		curl -fLo "%USERPROFILE%/.vim/autoload/plug.vim" https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 Use vim-plug to install the Bundles:
 
