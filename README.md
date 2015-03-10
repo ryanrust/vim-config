@@ -12,15 +12,15 @@ Contains two configuration files:
 
 Link the .vimrc file:
 
-		mklink %USERPROFILE%/.vim/.vimrc %USERPROFILE%/.vimrc
+		mklink %USERPROFILE%/.vimrc %USERPROFILE%/.vim/.vimrc
 
 Link the .vsvimrc file:
 
-		mklink %USERPROFILE%/.vim/.vsvimrc %USERPROFILE%/.vsimrc
+		mklink %USERPROFILE%/.vsvimrc %USERPROFILE%/.vim/.vsvimrc
 
 Link the .vim folder:
 
-		mklink %USERPROFILE%/vimfiles %USERPROFILE%/.vim
+		mklink /D %USERPROFILE%/vimfiles %USERPROFILE%/.vim
 
 Install vim-plug:
 
