@@ -33,7 +33,7 @@ Use vim-plug to install the Bundles:
 
 Grab and install the **Inconsolata-dz** patched font for Powerline:
 
-<https://gist.github.com/1595572>
+<https://github.com/powerline/fonts>
 
 ## What's packed in this:
 
