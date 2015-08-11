@@ -8,6 +8,7 @@ Plug 'scrooloose/syntastic'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'whatyouhide/vim-gotham'
+Plug 'chrisbra/csv.vim'
 
 call plug#end()
 
