@@ -35,7 +35,7 @@ Grab and install the **Inconsolata-dz** patched font for Powerline:
 
 <https://github.com/powerline/fonts>
 
-(The one linked above does not appear to work in Windows 10.  The one linked on [this blog post]](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/) seems to work fine, though.)
+(The one linked above does not appear to work in Windows 10.  The one linked on [this blog post](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/) seems to work fine, though.)
 
 ## What's packed in this:
 
