@@ -35,8 +35,6 @@ Grab and install the **Inconsolata-dz** patched font for Powerline:
 
 <https://github.com/powerline/fonts>
 
-(The one linked above does not appear to work in Windows 10.  The one linked on [this blog post](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/) seems to work fine, though.)
-
 ## What's packed in this:
 
 ### Package Manager
@@ -52,3 +50,7 @@ Name	     |  Desc                                       | Bindings
 [syntastic](https://github.com/scrooloose/syntastic) | Syntax checking hacks for vim
 [nerdcommenter](https://github.com/scrooloose/nerdcommenter) | The premier commenting tool.
 [gotham](https://github.com/whatyouhide/vim-gotham) | Code never sleeps in Gotham City.
+
+## Troubleshooting
+
+* My Airline symbols are not displaying properly - Typically, when this occurs it is because the font specified in the .vimrc (see line 40 - "set guifont") cannot be located.  Ensure that you have specified the name correctly.  Note that, after updating the guifont setting, you will probably need to *completely* close gvim and re-open to see it take effect.  (An ":AirlineRefresh" doesn't seem to do it.)
