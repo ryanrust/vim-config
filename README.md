@@ -53,4 +53,4 @@ Name	     |  Desc                                       | Bindings
 
 ## Troubleshooting
 
-* My Airline symbols are not displaying properly - Typically, when this occurs it is because the font specified in the .vimrc (see line 40 - "set guifont") cannot be located.  Ensure that you have specified the name correctly.  Note that, after updating the guifont setting, you will probably need to *completely* close gvim and re-open to see it take effect.  (An ":AirlineRefresh" doesn't seem to do it.)
+* **My Airline symbols are not displaying properly** - Typically, when this occurs it is because the font specified in the .vimrc (see line 40 - "set guifont") cannot be located.  Ensure that you have specified the name correctly.  Note that, after updating the guifont setting, you will probably need to *completely* close gvim and re-open to see it take effect.  (An ":AirlineRefresh" doesn't seem to do it.)
