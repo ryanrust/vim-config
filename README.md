@@ -47,9 +47,8 @@ Name	     |  Desc                                       | Bindings
 ------------ | ------------------------------------------- | ------------
 [airline](https://github.com/bling/vim-airline) | Lean & mean status/tabline for vim that's light as air.
 [fugitive](https://github.com/tpope/vim-fugitive) | A Git wrapper so awesome, it should be illegal.
-[syntastic](https://github.com/scrooloose/syntastic) | Syntax checking hacks for vim
-[nerdcommenter](https://github.com/scrooloose/nerdcommenter) | The premier commenting tool.
 [gotham](https://github.com/whatyouhide/vim-gotham) | Code never sleeps in Gotham City.
+[solarized](https://github.com/altercation/vim-colors-solarized) | Precision color scheme for multiple applications (terminal, vim, etc.) with both dark/light modes.
 
 ## Troubleshooting
 
