@@ -3,12 +3,10 @@
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
-Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/syntastic'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'whatyouhide/vim-gotham'
-Plug 'chrisbra/csv.vim'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
@@ -33,7 +31,7 @@ call plug#end()
 	source ~\.vim\.vsvimrc
 
 	set background=dark
-	colorscheme gotham
+	colorscheme solarized 
 
 	set colorcolumn=80
 	set cursorline cursorcolumn								" vertical cursorline
